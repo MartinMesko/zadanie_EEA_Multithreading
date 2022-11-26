@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="New method created">
+    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="Consumer class deleted.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/NewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/NewUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" afterDir="false" />
     </list>
@@ -48,8 +46,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
@@ -80,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669472900337</updated>
-      <workItem from="1669472901634" duration="20709000" />
+      <workItem from="1669472901634" duration="22233000" />
     </task>
     <task id="LOCAL-00001" summary="New classes with methods created">
       <created>1669483893566</created>
@@ -96,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669489720267</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="All methods fixed.">
+      <created>1669496306460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669496306460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Consumer class deleted.">
+      <created>1669496363996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669496363996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New classes with methods created" />
     <MESSAGE value="New method created" />
-    <option name="LAST_COMMIT_MESSAGE" value="New method created" />
+    <MESSAGE value="All methods fixed." />
+    <MESSAGE value="Consumer class deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="Consumer class deleted." />
   </component>
 </project>

@@ -5,11 +5,12 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 
-public class ProducerConsumer_EEA {
+public class ProducerConsumer_EEA extends NewUser {
 
     public static BlockingQueue<NewUser> queue = new ArrayBlockingQueue<>(10);
 
     public static void main(String[] args) throws SQLException {
+        NewUser user = new NewUser();
 
 
         try (Connection spojenie = DriverManager.getConnection(
@@ -48,11 +49,17 @@ public class ProducerConsumer_EEA {
             t1.join();
             t2.join();
 
-            System.out.println("Počet je : " + queue.size());
+            System.out.println("\nPočet záznamov v databáze po spustení druhého vlákna pre vymazanie položiek je : "
+                    + queue.size() +
+                    "\n\nUSER_ID       USER_GUID        USER_NAME \n" +
+                     "  " + user.getUserId() + "             "
+                    + user.getUserGuid() + "             "
+                    + user.getUserName());
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
     }
 
     public static void consumer() throws SQLException {
@@ -66,6 +73,7 @@ public class ProducerConsumer_EEA {
                 Thread.sleep(100);
                 String prikazDelete = "delete from SUSERS where USER_ID >= 1";
                 prikaz.executeUpdate(prikazDelete);
+
 
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
