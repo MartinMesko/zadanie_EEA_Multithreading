@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="Consumer class deleted.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" afterDir="false" />
+    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="Program fixed.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/NewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/NewUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669472900337</updated>
-      <workItem from="1669472901634" duration="22233000" />
+      <workItem from="1669472901634" duration="22533000" />
     </task>
     <task id="LOCAL-00001" summary="New classes with methods created">
       <created>1669483893566</created>
@@ -108,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669496363996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Program fixed.">
+      <created>1669498488199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669498488199</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +135,7 @@
     <MESSAGE value="New method created" />
     <MESSAGE value="All methods fixed." />
     <MESSAGE value="Consumer class deleted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Consumer class deleted." />
+    <MESSAGE value="Program fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Program fixed." />
   </component>
 </project>
