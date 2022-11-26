@@ -7,15 +7,30 @@ import java.sql.Statement;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-public class Main {
+public class ProducerConsumer_EEA {
+
+    public BlockingQueue<NewUser> queue = new ArrayBlockingQueue<>(2);
+
     public static void main(String[] args) throws SQLException {
 
-        BlockingQueue<NewUser> queue = new ArrayBlockingQueue<>(2);
+        try(Connection spojenie = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/zadanie_eea",
+                    "root",
+                    "2030isNow");
+                Statement prikaz = spojenie.createStatement()) {
+                Thread t1 = new Thread(() -> {
+                    try {
+                        Producer.addUser(1, "a1", "Robert");
+                        Producer.addUser(2,"a2", "Martin");
 
-        Connection spojenie = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/zadanie_eea",
-                "root",
-                "2030isNow");
-        Statement prikaz = spojenie.createStatement();
+                    } catch (InterruptedException | SQLException e) {
+                        throw new RuntimeException(e);
+                    }
+
+                });
+                t1.start();
+                }
+
+            }
+
     }
-}

@@ -1,37 +1,23 @@
 package multiThreading;
 
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
-
-public class Producer implements Runnable {
-
-
+public class NewUser {
 
     private int userId;
     private String userName, userGuid;
 
-    public Producer(int userId, String userName, String userGuid) {
+    public NewUser(int userId, String userName, String userGuid) {
         this.userId = userId;
         this.userName = userName;
         this.userGuid = userGuid;
     }
 
-    @Override
-    public void run() {
+    public NewUser() {
 
-        try {
-            Thread.sleep(100);
-
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
     }
-
-
 
     @Override
     public String toString() {
-        return "Producer{" +
+        return "NewUser{" +
                 "userId=" + userId +
                 ", userName='" + userName + '\'' +
                 ", userGuid='" + userGuid + '\'' +
