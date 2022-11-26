@@ -8,7 +8,7 @@ import static java.sql.DriverManager.getConnection;
 
 public class Producer extends NewUser {
 
-    public static void addUser(int id, String guid, String name) throws InterruptedException, SQLException {
+    public static void add(int id, String guid, String name) throws InterruptedException, SQLException {
 
         Connection spojenie = getConnection(
                 "jdbc:mysql://localhost:3306/zadanie_eea",
@@ -20,6 +20,8 @@ public class Producer extends NewUser {
             producerQueue.queue.put(new NewUser(id, guid, name));
             String prikazInsert = "insert into SUSERS value (" + id + ", " + "'" + guid + "', " + "'" + name + "')";
             prikaz.executeUpdate(prikazInsert);
+            System.out.println("USER_ID       USER_GUID        USER_NAME");
+            System.out.println("  " + id + "             " + guid + "                " + name);
         }
     }
 }

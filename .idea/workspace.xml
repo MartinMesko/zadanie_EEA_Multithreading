@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multiThreading/NewUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" afterDir="false" />
+    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="New classes with methods created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +30,7 @@
   </component>
   <component name="ProjectId" id="2I5YQgCDP0yYsnmxbxPfRri3qzw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -85,8 +79,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669472900337</updated>
-      <workItem from="1669472901634" duration="8835000" />
+      <workItem from="1669472901634" duration="14383000" />
     </task>
+    <task id="LOCAL-00001" summary="New classes with methods created">
+      <created>1669483893566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669483893566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New classes with methods created" />
+    <option name="LAST_COMMIT_MESSAGE" value="New classes with methods created" />
   </component>
 </project>
