@@ -17,7 +17,7 @@ public class Producer extends NewUser {
         Statement prikaz = spojenie.createStatement();
         {
             ProducerConsumer_EEA producerQueue = new ProducerConsumer_EEA();
-            producerQueue.queue.put(new NewUser(id, guid, name));
+            producerQueue.queue.add(new NewUser(id, guid, name));
             String prikazInsert = "insert into SUSERS value (" + id + ", " + "'" + guid + "', " + "'" + name + "')";
             prikaz.executeUpdate(prikazInsert);
             System.out.println("USER_ID       USER_GUID        USER_NAME");

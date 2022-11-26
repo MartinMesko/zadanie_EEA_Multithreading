@@ -17,11 +17,10 @@ public class NewUser {
 
     @Override
     public String toString() {
-        return "NewUser{" +
-                "userId=" + userId +
-                ", userName='" + userName + '\'' +
-                ", userGuid='" + userGuid + '\'' +
-                '}';
+        return userId +
+                "" +
+                "" + userName + '\'' +
+                "'" + userGuid;
     }
 
     public int getUserId() {

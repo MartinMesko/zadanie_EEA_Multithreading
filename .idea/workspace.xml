@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="New classes with methods created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Consumer.java" afterDir="false" />
+    <list default="true" id="be317848-b16a-4e3c-87a6-5459b5df4dee" name="Changes" comment="New method created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/NewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/NewUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multiThreading/ProducerConsumer_EEA.java" afterDir="false" />
     </list>
@@ -79,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669472900337</updated>
-      <workItem from="1669472901634" duration="14383000" />
+      <workItem from="1669472901634" duration="20709000" />
     </task>
     <task id="LOCAL-00001" summary="New classes with methods created">
       <created>1669483893566</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669483893566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New method created">
+      <created>1669489720267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669489720267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New classes with methods created" />
-    <option name="LAST_COMMIT_MESSAGE" value="New classes with methods created" />
+    <MESSAGE value="New method created" />
+    <option name="LAST_COMMIT_MESSAGE" value="New method created" />
   </component>
 </project>
